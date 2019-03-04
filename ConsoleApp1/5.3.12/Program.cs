@@ -24,7 +24,7 @@ namespace _5._3._12
                     sum += num;
                 }
                 Console.WriteLine("Njihova suma je: " + sum);
-                Console.WriteLine("Njihov prosjek je: {0}", sum / 5);
+                Console.WriteLine("Njihov prosjek je: {0}", sum / 5.0);
             }
             catch(Exception m)
             {
