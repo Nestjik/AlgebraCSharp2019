@@ -18,17 +18,16 @@ namespace _5._3._20
                 {
                     Console.Write("Unesi brojeve (prekini unos sa 0): ");
                     int num = int.Parse(Console.ReadLine());
-                    if (num == 0)
+                    if (num != 0)
                     {
-                        break;
-                    }
-                    if (num % 2 == 0)
-                    {
-                        parni++;
-                    }
-                    else
-                    {
-                        neparni++;
+                        if (num % 2 == 0)
+                        {
+                            parni++;
+                        }
+                        else
+                        {
+                            neparni++;
+                        }
                     }
                 }
                 Console.WriteLine("Parnih je: " + parni);
