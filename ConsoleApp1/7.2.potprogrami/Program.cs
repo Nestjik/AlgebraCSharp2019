@@ -4,19 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6._2._4_zz
+namespace _7._2.potprogrami
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("unesi broj: ");
-            string br = Console.ReadLine();
-
-            char[] charArray = br.ToCharArray();
-            Array.Reverse(charArray);
-            Console.WriteLine(charArray);
+            HelloWorld();
             Console.Read();
+        }
+        static void HelloWorld()
+        {
+            Console.WriteLine("Hello");
         }
     }
 }
