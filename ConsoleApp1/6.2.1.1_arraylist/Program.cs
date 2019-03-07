@@ -13,11 +13,16 @@ namespace _6._2._1._1_arraylist
         {
             int broj = -1;
             ArrayList arr = new ArrayList();
+<<<<<<< HEAD
+=======
+            Console.WriteLine("Unesi broj, za kraj unesi 0");
+>>>>>>> upstream/master
 
             while (broj != 0)
             {
                 broj = int.Parse(Console.ReadLine());
                 arr.Add(broj);
+<<<<<<< HEAD
             }
 
             foreach (var b in arr)
@@ -25,6 +30,25 @@ namespace _6._2._1._1_arraylist
                 Console.WriteLine(b);
             }
             Console.Read();
+=======
+
+            }
+            //arr.Add(3.14);
+
+            // ispis
+            for (int i = 0; i < arr.Count; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+
+            foreach (int brojcic in arr)
+            {
+                Console.Write(" "+brojcic);
+            }
+
+            Console.ReadKey();
+
+>>>>>>> upstream/master
         }
     }
 }

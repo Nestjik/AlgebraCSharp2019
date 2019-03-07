@@ -4,6 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{640D81B0-3114-42B4-B95F-EA1C3E70CF2B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_6._2._1._1_arraylist</RootNamespace>
@@ -11,6 +12,16 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+=======
+    <ProjectGuid>{F1C557DD-DF28-4B57-92D6-CB384FCA0D01}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_6._2._1._1_arraylist</RootNamespace>
+    <AssemblyName>6.2.1.1_arraylist</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+>>>>>>> upstream/master
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
